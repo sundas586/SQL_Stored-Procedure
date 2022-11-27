@@ -9,5 +9,6 @@ Stored procedures are used to do the work that simple sql query can not do.
 tell we are using sql here.
 - "as $" (it is a doulbe dollar actually) on third line and "$" at the last most line to avoid escape characters of any string error in between area.<br/>
 - the procedure body, where all the logic is written is in between "begin" and "end;" keywords.
+- we could have used "create procedure" only, but if we want to update an existing procedure we can use "create or replace procedure"
 
 ![3](https://user-images.githubusercontent.com/33677647/204162670-46363429-13f1-4130-a510-108f4bfc9ebe.jpeg)
