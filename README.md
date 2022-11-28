@@ -15,7 +15,10 @@ tell we are using sql here.
 - "as $" (it is a doulbe dollar actually) on third line and "$" at the last most line to avoid escape characters of any string error in between area.<br/>
 - the procedure body, where all the logic is written is in between "begin" and "end;" keywords.
 - we could have used "create procedure" only, but if we want to update an existing procedure we can use "create or replace procedure".
- as if we write any escape character, it will generate error :
+
+![33](https://user-images.githubusercontent.com/33677647/204255638-049790d3-092b-4270-aa34-7c6d0bf10b00.JPG)
+
+as if we write any escape character, it will generate error :
  
  but when we put an "E" and "\" at the beginning of the escape character, they error will be resolved, but we will have to do this for each escape character which is a long process,
  
@@ -25,5 +28,3 @@ tell we are using sql here.
 so the alternate solution is that we put a doulbe $ at the start and end, any escape character in between these dollar sign will not generate errors.
 
 ![3](https://user-images.githubusercontent.com/33677647/204255289-1a05cca2-8469-460d-8c6f-93b511551752.JPG)
-
-![3](https://user-images.githubusercontent.com/33677647/204162670-46363429-13f1-4130-a510-108f4bfc9ebe.jpeg)
