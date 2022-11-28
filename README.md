@@ -4,6 +4,16 @@ A stored procedure is a prepared SQL code that you can save, so the code can be 
 So if you have an SQL query that you write over and over again, save it as a stored procedure, and then just call it to execute it.
 You can also pass parameters to a stored procedure, so that the stored procedure can act based on the parameter value(s) that is passed.
 
+**10 Examples of PostgreSQL Stored Procedures**<br/>
+- Inserting data using a procedure.
+- Displaying a message on the screen.
+- Using transaction control.
+- Using columns data types.
+- Raising notices, warnings, and INFO messages.
+- Raising exceptions.
+- Traversing values in a table using a FOR loop.
+- Using SECURITY INVOKER.
+
 ![1](https://user-images.githubusercontent.com/33677647/204250061-8001eab2-f5d5-43df-a7b7-0aa1a445ea76.JPG)
 ![1](https://user-images.githubusercontent.com/33677647/204162658-d0cca2ac-f133-4416-bf72-bd39ac50b7c1.jpeg)
 ![2](https://user-images.githubusercontent.com/33677647/204162711-a87dcf51-de83-4042-b73f-35de4b44dfde.jpeg)
@@ -28,3 +38,5 @@ as if we write any escape character, it will generate error :
 so the alternate solution is that we put a doulbe $ at the start and end, any escape character in between these dollar sign will not generate errors.
 
 ![3](https://user-images.githubusercontent.com/33677647/204255289-1a05cca2-8469-460d-8c6f-93b511551752.JPG)
+
+
